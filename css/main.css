@@ -263,6 +263,10 @@
   flex-direction: column;
 }
 
+.video {
+  align-items: center;
+}
+
 @media (min-width: 757px) and (max-width: 1440px) {
   .mobile-phone {
     display: none;
@@ -281,6 +285,7 @@
 
 @media (max-width: 756px) {
   .first-section {
+    align-items: center;
     flex-direction: column-reverse;
   }
   .main-item {
@@ -333,10 +338,12 @@
     display: none;
   }
   .three-section-inner {
+    align-items: center;
     flex-direction: column-reverse;
     height: 613px;
   }
   .six-section-inner {
+    align-items: center;
     flex-direction: column-reverse;
     height: 643px;
   }
@@ -437,5 +444,12 @@
   .tell-raqam {
     text-align: center;
     align-items: center;
+  }
+  .video {
+    align-items: center;
+  }
+  .mobile-icons {
+    display: flex;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=main.css.map */
